@@ -1,0 +1,9 @@
+---
+  name: "espeak"
+  type: "tts"
+  author: "https://github.com/Ultchad/"
+
+  minimum_kalliope_version: 0.4.0
+
+  tags:
+    - "tts engine"

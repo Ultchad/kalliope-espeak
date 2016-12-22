@@ -54,5 +54,5 @@ class Espeak(TTSModule):
         final_command = [self.espeak_exec_path, options['v'], options['s'], options['a'],
                          options['p'], options['w'], self.words]
 
-        # generate the file with pico2wav
+        # generate the file with eSpeak
         subprocess.call(final_command, stderr=sys.stderr)

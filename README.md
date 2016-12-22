@@ -1,7 +1,14 @@
-### eSpeak
+# eSpeak
+
+## Synopsis
 
 This TTS is based on the eSpeak engine
 
+## Installation
+
+    kalliope install --git-url "https://github.com/Ultchad/kalliope-espeakgit"
+
+## Options
 
 | Parameters | Required | Default         | Choices                | Comment                                                                                       |
 |------------|----------|-----------------|------------------------|-----------------------------------------------------------|
@@ -13,7 +20,7 @@ This TTS is based on the eSpeak engine
 | path       | no       | /usr/bin/espeak | 0 to 99                | Path of espeak                                            |
 | cache      | no       | TRUE            |                        | True if you want to use the cache with this TTS           | 
 
-#### Notes :
+## Notes :
 
 To see the full list of language and voices:
 
