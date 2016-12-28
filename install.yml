@@ -3,3 +3,9 @@
   hosts: localhost
   gather_facts: no
   connection: local
+
+  tasks:
+    - name: "Install apt dependencies"
+      apt:
+        name: espeak
+        update_cache: yes
