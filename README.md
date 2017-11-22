@@ -1,5 +1,7 @@
 # eSpeak
 
+eSpeak neuron is now integrate in core of kalliope
+
 ## Synopsis
 
 This TTS is based on the eSpeak engine
